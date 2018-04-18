@@ -6,30 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title> Psychic Game </title>
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Gaegu' rel='stylesheet'>
 </head>
 
 <body>
     <!-- What appears on HTML page in writing with their given ID -->
-    <h1> The Psychic Game </h1>
-    <p> Guess What Letter I Am Thinking Of...</p>
-    <p>
-        <span id="computerChoice"></span>
-    </p>
-    <p>
-        <span id="userGuess"></span>
-    </p>
-    <p> Wins:
-        <span id="wins"></span>
-    </p>
-    <p> Losses:
-        <span id="losses"></span>
-    </p>
-    <p> Guesses Left:
-        <span id="guessLeft"></span>
-    </p>
-    <p> Your Guesses So Far:
-        <span id="guessSoFar"></span>
-    </p>
+    <div class="maincontent">
+        <p id="psychicgametitle"> The Psychic Game </p>
+        <img src="https://cdn.shopify.com/s/files/1/0185/5092/products/objects-0021.png?v=1369543444" id="crystalball" alt="Crystal Ball">
+        <p id="guesswhatlettertitle">Guess What Letter I Am Thinking Of...</p>
+        <p>
+            <span id="computerChoice"></span>
+        </p>
+        <p>
+            <span id="userGuess"></span>
+        </p>
+        <p> Wins:
+            <span id="wins"></span>
+        </p>
+        <p> Losses:
+            <span id="losses"></span>
+        </p>
+        <p> Guesses Left:
+            <span id="guessLeft"></span>
+        </p>
+        <p> Your Guesses So Far:
+            <span id="guessSoFar"></span>
+        </p>
+    </div>
 
     <script src="./assets/javascript/game.js"></script>
 </body>
